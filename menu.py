@@ -128,7 +128,6 @@ while place_order:
                 # 4. Check if the menu selection is in the menu items
                 if (selection_as_int) in menu_items.keys():
                     # Store the item name as a variable
-                    # item_name = menu_items[menu_selection]
                     item_name = menu_items[selection_as_int]["Item name"]
                     # Ask the customer for the quantity of the menu item
                     quantity = input(f"How many would you like? ")
